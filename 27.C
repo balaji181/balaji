@@ -2,14 +2,14 @@
 
 int main(void) 
 {
-	char str[10];
-	int n,i;
+	char s[10];
+	int a,i;
 	printf("enter the string:");
-	scanf("%s",str);
-	n=strlen(str);
-	for(i=0;i<n;i++)
+	scanf("%s",s);
+	a=strlen(s);
+	for(i=0;i<a;i++)
 	{
-		if(str[i]>='0' && str[i]<='9')
+		if(s[i]>='0' && s[i]<='9')
 		{
 			printf("\n YES");
 		}
@@ -18,3 +18,4 @@ int main(void)
 	}
 	return 0;
 }
+
